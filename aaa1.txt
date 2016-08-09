@@ -6,7 +6,7 @@ void Func(char arr2[])
 }
 void main()
 {
-	int n = 10;
+	int n = 25;
 	char str1[] = "Hello";
 	char str2[] = { 'H', 'e', 'l', 'l', 'o' };
 	char *p1 = str1;
@@ -15,5 +15,4 @@ void main()
 	Func("Hello");
     Func("Hello");
 	printf("%d,%d,%d,%d,%d,%d",sizeof(n),sizeof(p1),sizeof(p2), sizeof(str1), sizeof(str2),sizeof(arr1));
-printf("%d,%d,%d,%d,%d,%d",sizeof(n),sizeof(p1),sizeof(p2), sizeof(str1), sizeof(str2),sizeof(arr1));
 }
